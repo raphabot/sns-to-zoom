@@ -31,12 +31,12 @@
     "deploy": "npm run build && zip -r sns-to-zoom.zip . && aws lambda update-function-code --function-name sns-to-zoom --zip-file fileb://sns-to-zoom.zip --region us-west-2"
   },
   "dependencies": {
-    "aws-sdk": "^2.617.0",
+    "aws-sdk": "^2.686.0",
     "axios": "^0.19.2"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
-    "@types/node": "^10.17.15",
+    "@types/node": "^10.17.24",
     "coveralls": "^3.0.2",
     "jest": "^23.6.0",
     "prettier": "^1.19.1",
@@ -45,7 +45,7 @@
     "ts-node": "^7.0.1",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.15.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.9.3"
   },
   "engines": {
     "node": ">=10.0.0"
