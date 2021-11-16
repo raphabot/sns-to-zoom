@@ -31,7 +31,7 @@
     "deploy": "npm run build && zip -r sns-to-zoom.zip . && aws lambda update-function-code --function-name sns-to-zoom --zip-file fileb://sns-to-zoom.zip --region us-west-2"
   },
   "dependencies": {
-    "aws-sdk": "^2.686.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.21.1"
   },
   "devDependencies": {
