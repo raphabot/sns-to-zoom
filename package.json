@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.686.0",
-    "axios": "^0.21.1"
+    "axios": "^1.6.3"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
